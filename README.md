@@ -1,6 +1,6 @@
 # jq-repair-script
 
-This repository contains a Bash script named `jq-repair-script.sh` that repairs [jq](https://stedolan.github.io/jq/), a lightweight and flexible command-line JSON processor. The script addresses issues related to missing newlines in package list files that can cause installation or functionality problems with `jq`.
+This repository contains a Bash script named `fix_jq_install.sh` that repairs [jq](https://stedolan.github.io/jq/), a lightweight and flexible command-line JSON processor. The script addresses issues related to missing newlines in package list files that can cause installation or functionality problems with `jq`.
 
 ## Features
 
@@ -20,15 +20,15 @@ This repository contains a Bash script named `jq-repair-script.sh` that repairs 
 
 1. **Download the Script**
 
-   Download the `jq-repair-script.sh` script from this repository.
+   Download the `fix_jq_install.sh` script from this repository.
 
 2. **Make the Script Executable**
 
-       chmod +x jq-repair-script.sh
+       chmod +x fix_jq_install.sh
 
 3. **Run the Script**
 
-       sudo ./jq-repair-script.sh
+       sudo ./fix_jq_install.sh
 
    **Note**: It's important to run the script with `sudo` to ensure it has the necessary permissions.
 
